@@ -1,0 +1,22 @@
+Ex01
+Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
+mensagem explicativa, conforme exemplos.
+
+Entrada:
+10
+30
+Saída:
+SOMA = 40
+
+Entrada:
+-30
+10
+Saída:
+SOMA = -20
+
+Entrada:
+0
+0
+Saída:
+SOMA = 0
+

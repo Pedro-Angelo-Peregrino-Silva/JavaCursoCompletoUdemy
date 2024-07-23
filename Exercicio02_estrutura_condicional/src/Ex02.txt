@@ -1,0 +1,10 @@
+Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+
+Entrada:        Saída:
+12              PAR
+
+Entrada:        Saída:
+-27             IMPAR
+
+Entrada:        Saída:
+0               PAR
