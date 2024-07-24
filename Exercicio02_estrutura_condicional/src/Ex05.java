@@ -3,11 +3,11 @@ import java.util.Locale;
 
 public class Ex05 {
     public static void main(String[] args) {
-        Scanner userIn = new Scanner(System.in);
         Locale.setDefault(Locale.US);
+        Scanner userIn = new Scanner(System.in);
 
         int codProduct, qntProduct;
-        double valorPagar;
+        double valorPagar = 0.0;
 
         System.out.printf("Tabela de Preços:%n");
         System.out.printf("Código - Produto - Valor%n");
@@ -23,7 +23,6 @@ public class Ex05 {
         System.out.printf("QNT produto: ");
         qntProduct = userIn.nextInt();
 
-        valorPagar = 0.00;
 
         if(codProduct == 1) {
             valorPagar = qntProduct * 4.00;
