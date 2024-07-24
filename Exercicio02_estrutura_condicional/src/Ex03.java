@@ -3,8 +3,8 @@ import java.util.Locale;
 
 public class Ex03 {
     public static void main(String[] args) {
-        Scanner userIn = new Scanner(System.in);
         Locale.setDefault(Locale.US);
+        Scanner userIn = new Scanner(System.in);
 
         int numberA, numberB;
 
